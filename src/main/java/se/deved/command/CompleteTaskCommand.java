@@ -7,6 +7,7 @@ public class CompleteTaskCommand extends Command {
     public CompleteTaskCommand(Application application) {
         super("complete-task", "Mark task as completed.", application);
     }
+    // FIX ISSUE
 
     @Override
     public void execute(String[] commandArgs) {
